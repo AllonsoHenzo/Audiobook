@@ -9,7 +9,7 @@ function App() {
         <div className="center">
           <div className="menu">
             <div className="logo">
-              <h3>A planta que cura todas as dores</h3>
+              <h2>A planta que cura todas as dores</h2>
             </div>
           </div>
             <div className="item-menu">
@@ -41,7 +41,7 @@ function App() {
               </div>
               <br/>
               <br/>
-              <h3>Playlist com as musicas:</h3>
+              <h3>Playlist com as músicas:</h3>
               <br/>
               <div className="spotfy">
                 <iframe src="https://open.spotify.com/embed/playlist/0RDPLyNZonCVtkzSaury9z?utm_source=generator&theme=0" width="90%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>

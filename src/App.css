@@ -28,6 +28,11 @@
   }
 
 }
+
+.logo h2{
+  font-weight: bold;
+}
+
 .App{
   min-height: 960px;
   background-image: url('https://images8.alphacoders.com/129/1298215.jpg');
