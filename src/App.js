@@ -1,22 +1,12 @@
 import './App.css';
 import capa from './img/livro.jpeg'
 import audiobook from './audio/audiobook.mp3'
+import Main from './components/Main';
 
 function App() {
   return (
     <div className="App">
-      <div className="Main">
-        <div className="center">
-          <div className="menu">
-            <div className="logo">
-              <h2>A planta que cura todas as dores</h2>
-            </div>
-          </div>
-            <div className="item-menu">
-            <a href="https://drive.google.com/file/d/1jdre4uQJpyWkYUGVDYHftWi7cflm2aXD/view" class="myButton">Download</a>
-            </div>
-        </div>
-      </div>
+      <Main/>
       <div className="conteudo">
         <div className="center2">
           <div className="box">
