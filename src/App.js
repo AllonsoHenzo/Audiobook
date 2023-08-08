@@ -13,7 +13,7 @@ function App() {
             </div>
           </div>
             <div className="item-menu">
-              <a href="https://drive.google.com/file/d/1jdre4uQJpyWkYUGVDYHftWi7cflm2aXD/view?usp=sharing">Dowload</a>
+            <a href="https://drive.google.com/file/d/1jdre4uQJpyWkYUGVDYHftWi7cflm2aXD/view" class="myButton">Download</a>
             </div>
         </div>
       </div>

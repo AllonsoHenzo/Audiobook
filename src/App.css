@@ -3,9 +3,33 @@
   padding:0;
   margin:0;
 
+  .myButton {
+    box-shadow:inset 0px -3px 7px 0px #29bbff;
+    background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+    background-color:#2dabf9;
+    border-radius:3px;
+    border:1px solid #0b0e07;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:15px;
+    padding:9px 23px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #263666;
+  }
+  .myButton:hover {
+    background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+    background-color:#0688fa;
+  }
+  .myButton:active {
+    position:relative;
+    top:1px;
+  }
+
 }
 .App{
-  min-height: 1280px;
+  min-height: 960px;
   background-image: url('https://images8.alphacoders.com/129/1298215.jpg');
   background-position: center;
   background-size: cover;
@@ -18,8 +42,8 @@
   display: flex;
   padding: 25px;
   background: rgba(50, 175, 247, 0.2);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 0px 0px 16px 16px;
+  box-shadow: 0 0px 0px 30px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -27,7 +51,7 @@
 
 .Main{
   width: 100%;
-  padding: 40px 0;
+  padding: 0px 0px 60px 0px;
   min-height: 100px;
 }
 
@@ -44,11 +68,8 @@
 }
 
 .item-menu a{
-  color: #000;
-  text-decoration: none;
-  border: 1px solid black;
-  padding: 3px;
-  border-radius: 6px;
+  border: 0.5px solid black;
+  color: black;
 }
 
 .center2{
@@ -117,6 +138,7 @@ audio::-webkit-media-controls-panel {
     object-fit: cover;;
     
 }
+
 
 @media(max-width: 875px){
   .box{
