@@ -146,7 +146,19 @@ audio::-webkit-media-controls-panel {
 }
 
 @media(max-width: 425px){
-  .player{
-    display: none;
+  .center2 {
+    max-width: 90%;
+  }
+}
+
+@media(max-width: 425px){
+  .center {
+    max-width: 100%;
+  }
+}
+
+@media(max-width: 302px){
+  .center2 {
+    max-width: 100%;
   }
 }
